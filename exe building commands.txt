@@ -1,0 +1,11 @@
+pip install pyinstaller
+cd path\to\your\script
+pyinstaller --onefile app.py
+pyinstaller --onefile --windowed app.py
+
+
+
+* WITH DB INCLUSION * 
+
+pyinstaller --onefile --add-data "emails.db;." app.py
+pyinstaller --onefile --windowed --add-data "emails.db;." app.py

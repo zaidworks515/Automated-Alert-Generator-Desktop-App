@@ -1,0 +1,6 @@
+pyinstaller
+pandas
+secure-smtplib
+aspose-tasks
+openpyxl
+db-sqlite3
